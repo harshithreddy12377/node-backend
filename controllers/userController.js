@@ -1,4 +1,6 @@
 import userModel from "../models/userModel.js";
+
+
 const register = async (req, res) => {
   try {
     const { name, email, pass } = req.body;
