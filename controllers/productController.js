@@ -42,4 +42,8 @@ const createproduct = async(req,res) => {
   }
 };
 
+<<<<<<< HEAD
 export { showProducts, deleteProduct,updateProduct,createproduct };
+=======
+export { showProducts, deleteProduct,updateProduct,createproduct };
+>>>>>>> 4928f42dfc3d330cf90c7e63b20c2532709481f3
