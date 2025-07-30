@@ -3,12 +3,12 @@ import mongoose from "mongoose";
 import cors from "cors";
 import userRoute from "./routes/userRoute.js";
 import productRoute from "./routes/productRoute.js";
-<<<<<<< HEAD
+
 import dotenv from "dotenv";
 dotenv.config();
-=======
+
 import orderRoute from "./routes/orderRoute.js"
->>>>>>> 4928f42dfc3d330cf90c7e63b20c2532709481f3
+
 const app = express();
 app.use(express.json());
 app.use(cors());
@@ -26,10 +26,9 @@ mongoose.connect(`mongodb+srv://${dbUser}:${dbPass}@cluster0.blpgaix.mongodb.net
   });
 
 app.use("/api/user", userRoute);
-<<<<<<< HEAD
+
 app.use("/api/product", productRoute);
-=======
+
 app.use("/api/product", productRoute);
 app.use("/api/order",orderRoute)
 
->>>>>>> 4928f42dfc3d330cf90c7e63b20c2532709481f3
